@@ -1,0 +1,26 @@
+body {
+	margin: 0;
+	background-color: rgba(242, 234, 226, 1);
+	box-sizing: border-box;
+	padding: 0;
+}
+
+
+.card__container {
+	width: 600px;
+	height: 450px;
+
+	@media (max-width: 610px) {
+		max-width: 343px;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+
+	@media (min-width: 610px) {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: -225px 0 0 -300px;
+	}
+
+}

@@ -1,0 +1,27 @@
+.button {
+	background: #3D8168;
+	border-radius: 8px;
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	text-decoration: none;
+	position: relative;
+	color: white;
+
+	&:hover {
+		background: rgba(26, 64, 50, 1);
+	}
+
+	&::before {
+		content: url("../images/cart.svg");
+		position: absolute;
+		top: 16px;
+		left: 63px;
+
+		@media (max-width:610px) {
+			left: 92px;
+		}
+	}
+
+}
