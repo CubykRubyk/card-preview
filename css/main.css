@@ -84,7 +84,7 @@
 }
 
 .new-price {
-  font-family: "Fraunces 72pt";
+  font-family: "Fraunces";
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -105,7 +105,7 @@
 }
 @media (max-width: 610px) {
   .old-price {
-    padding-right: 124.5px;
+    padding-right: 92px;
   }
 }
 
